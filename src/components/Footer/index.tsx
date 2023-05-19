@@ -3,11 +3,17 @@ import { Text } from "@/styles/Text";
 import { Footer as FooterWrapper } from "./style";
 import { UserImage } from "@/pages/home/style";
 import { userData } from "@/utils/userData";
-import { FaLinkedinIn, FaInstagram, FaFacebookF } from "react-icons/fa";
+import {
+  FaLinkedinIn,
+  FaInstagram,
+  FaFacebookF,
+  FaGithub,
+} from "react-icons/fa";
 import { Button } from "@/styles/Buttons";
 // import { HandEffect } from "../HandEffect";
 
 export const Footer = (): JSX.Element => {
+  const gihubUrl = `https://github.com/${userData.githubUser}`;
   return (
     <FooterWrapper id="social-media">
       <Container>
@@ -21,10 +27,10 @@ export const Footer = (): JSX.Element => {
           />
           <Box css={{ marginLeft: "$2" }}>
             <Text type="heading4" color="grey5" css={{ marginBottom: "$2" }}>
-              Thank you! {/* <HandEffect /> */}
+              Thank you! &#128521; {/* <HandEffect /> */}
             </Text>
             <Text type="body1" color="grey2">
-              Follow me on my social networks and let's talk
+              Shall we connect? Follow me on my networks.
             </Text>
           </Box>
         </Flex>
@@ -36,22 +42,14 @@ export const Footer = (): JSX.Element => {
           }}
         >
           <Button
-            className="instagram"
-            type="circle"
+            color="grey5"
             as="a"
-            target="_blank"
-            href={`https://instagram.com/${userData.instagramUser}`}
-          >
-            <FaInstagram />
-          </Button>
-          <Button
-            className="facebook"
+            css={{ "&:hover": { color: "$grey1" } }}
             type="circle"
-            as="a"
             target="_blank"
-            href={`https://fb.com/${userData.facebookUser}`}
+            href={gihubUrl}
           >
-            <FaFacebookF />
+            <FaGithub />
           </Button>
           <Button
             className="linkedin"

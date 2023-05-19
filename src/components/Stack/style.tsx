@@ -45,11 +45,14 @@ export const StackCard = styled("div", {
   },
 
   "&:hover": {
+    boxShadow: "0px 10px 15px 19px rgba(80,108,207,1)",
+
     [`& ${Text}`]: {
       opacity: 1,
       top: 0,
       transform: "translateY(-140%)",
       animation: `${scaleUp} 200ms`,
+      color: "$gray1",
     },
   },
 });

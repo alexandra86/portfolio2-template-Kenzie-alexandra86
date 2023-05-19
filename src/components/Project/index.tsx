@@ -83,7 +83,7 @@ export const Project = (): JSX.Element => {
               {repository.homepage && (
                 <ProjectLink
                   target="_blank"
-                  href={`https://${repository.homepage}`}
+                  href={`https://close-work.vercel.app/home`}
                 >
                   <FaShare /> See demo
                 </ProjectLink>

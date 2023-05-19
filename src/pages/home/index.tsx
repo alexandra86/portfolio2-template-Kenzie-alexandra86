@@ -29,7 +29,7 @@ import {
 
 export const Home = (): JSX.Element => {
   const gihubUrl = `https://github.com/${userData.githubUser}`;
-  const portfolioUrl = `https://github.com/${userData.githubUser}/my-portfolio`;
+  const portfolioUrl = `https://github.com/${userData.githubUser}/kenzie-portfolio-2-alexandra86`;
 
   return (
     <main id="home">
@@ -47,25 +47,42 @@ export const Home = (): JSX.Element => {
               <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+              I am{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                Full Stack Developer
               </Text>{" "}
-              creating and{" "}
-              <Text as="span" type="heading1" color="brand1">
-                developing
-              </Text>{" "}
-              projects
             </Text>
             <Text type="body1" color="grey2">
               Discover here in this environment, created especially for you, all
               my projects and technologies
             </Text>
             <HeaderButtonsArea>
-              <Button as="a" type="primary" href="#projects">
+              <Button
+                as="a"
+                type="primary"
+                href="#projects"
+                css={{
+                  "&:hover": {
+                    background: "$socialFacebook",
+                    transform: "scale(1.1)",
+                    transition: "scale(1.1)",
+                  },
+                }}
+              >
                 See Projects
               </Button>
-              <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
+              <Button
+                as="a"
+                type="outline"
+                target="_blank"
+                href={portfolioUrl}
+                css={{
+                  "&:hover": {
+                    transform: "scale(1.1)",
+                    transition: "scale(1.1)",
+                  },
+                }}
+              >
                 See my portfolio source code
               </Button>
               <Button
