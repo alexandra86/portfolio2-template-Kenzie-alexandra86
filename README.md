@@ -4,11 +4,9 @@
 💻 Portfólio
 ============
 
-Projeto desenvolvido pela Kenzie Academy Brasil, com meu toque pessoal, a fim de fornecer meu portfólio profissional demonstrando de forma objetiva minhas capacidades de técnicas e resolução de problemas, por meio de uma interface simples, moderna e intuitiva.
+Projeto desenvolvido pela Kenzie Academy Brasil, com meu toque pessoal, a fim de fornecer meu portfólio profissional, demonstrando de forma objetiva, minhas capacidades técnicas e tecnologias já estudadas até o momento, por meio de uma interface simples, moderna e intuitiva. 
+Visando a busca de oportunidades no mercado, na área da programação.
 
-
-  
-  
 
 * * *
 
