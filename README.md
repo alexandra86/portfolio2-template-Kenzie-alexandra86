@@ -1,7 +1,7 @@
   
   
 
-💻 Portfólio
+💻 Portfólio 2 - Alexandra Miranda
 ============
 
 Projeto desenvolvido pela Kenzie Academy Brasil, com meu toque pessoal, a fim de fornecer meu portfólio profissional, demonstrando de forma objetiva, minhas capacidades técnicas e tecnologias já estudadas até o momento, por meio de uma interface simples, moderna e intuitiva. 
