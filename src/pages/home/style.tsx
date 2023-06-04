@@ -1,23 +1,18 @@
-import React from "react";
 import { styled } from "@/styles/stitches.config";
 import { Flex } from "@/styles/Global";
 import { Button } from "@/styles/Buttons";
-import { css, keyframes } from "@stitches/react";
-
-import meIlustration from "@/public/static/img/background/me-ilustration.svg";
-import backgroundImg from "../../images/codigos_bg2.jpg";
 
 import dots from "@/public/static/img/background/dots.svg";
 
 export const Header = styled("header", {
   backgroundColor: "$grey1",
   padding: "12rem 0 8rem 0",
-  backgroundImage: `url(https://media.giphy.com/media/xUPGcEliCc7bETyfO8/giphy.gif)`,
+  backgroundImage: `url(https://media.giphy.com/media/78nXADhnE4BQfG4gup/giphy.gif)`,
   backgroundRepeat: "no-repeat",
   backgroundPosition: "right",
   backgroundAttachment: "fixed",
-  backgroundSize: "719px 845px",
-  borderBottom: "2px solid $grey5",
+  backgroundSize: "44.938rem 52.813rem",
+  borderBottom: "0.125rem solid $grey5",
   "@tablet": {
     backgroundPosition: "right -10% center",
   },
