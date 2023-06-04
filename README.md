@@ -10,7 +10,8 @@ Visando a busca de oportunidades no mercado, na área da programação.
 
 * * *
 
-  
+  <h2 font-family="pattaya">Link do Deploy via Vercel</h2><br>
+<a href="https://portfolio2-template-kenzie-alexandra86.vercel.app/" font-family="robotto" font-size="16px">Portfólio 2 - Alexandra Miranda</a>
   
 
 🎲 Utilizando projeto
